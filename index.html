@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>CV - Dark Mode</title>
+    <style type="text/tailwindcss">
+        @variant dark (&:where(.dark, .dark *));
+    </style>
+</head>
+
+
+<body class="bg-white text-gray-900 dark:bg-slate-950 dark:text-gray-100 transition-colors duration-300">
+
+    <!-- ================================================================================ -->
+    <!-- ****************************ya hadder wala part ha ========= ********************* -->
+    <!-- ============================================================================== -->
+    <header class="">
+        <nav class="flex justify-between dark:bg-slate-900 bg-amber-50 shadow-md">
+            <div class="py-4 px-3">
+                <h1 class="font-bold xl:text-[30px] lg:text-[30px] md:text-[18px] sm:text-[30px] text-[30px]">
+                    &lt; ssc /&gt;
+                </h1>
+            </div>
+            <div>
+                <ul class="flex py-4 gap-8 px-10 hidden md:flex items-center">
+                    <li class="cursor-pointer hover:text-blue-500 transition">About</li>
+                    <li class="cursor-pointer hover:text-blue-500 transition">Work</li>
+                    <li class="cursor-pointer hover:text-blue-500 transition">Testimonials</li>
+                    <li class="cursor-pointer hover:text-blue-500 transition">Contact</li>
+
+                    <button id="dark-mode-toggle"
+                        class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition">
+                        <i id="theme-icon" class="fa-solid fa-moon text-xl"></i>
+                    </button>
+
+                    <button
+                        class="bg-black dark:bg-white dark:text-black hover:bg-gray-800 text-white px-4 py-2 rounded font-bold transition">
+                        DOWNLOAD CV
+                    </button>
+                </ul>
+                <button class="md:hidden mt-3 px-8"><i class="fa-solid fa-list fa-xl"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================================================================================ -->
+    <!-- ****************************yahan sy neachy second  start gota ha ********************* -->
+    <!-- ============================================================================== -->
+
+    <div class=" flex flex-col xl:flex-row lg:flex-row md:flex-row mt-30 xl:ml-20 lg:ml-20 md:ml-15 sm:ml-10 ml-10">
+        <div>
+            <h1 class="font-bold xl:text-[30px] lg:text-[30px] md:text-[25px] sm:text-[30px text-[30px]">
+                Hi, I'm Sadiq 👋
+            </h1>
+            <p class="xl:text-[15.5px] lg:text-[14.5px] md:text-[10.6px] sm:text-[14px] text-[10px]">
+                I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally <br>
+                designing) exceptional digital experiences that are fast, accessible, visually appealing, and
+                <br>responsive. Even though i have been creating web application for over 1 years, I still love it as
+                <br> if it was somthing new.
+            </p>
+            <div class="flex mt-5">
+                <img src="Icon.png" alt="">
+                Abbottabad Pakistan
+            </div>
+            <div class="flex mt-4">
+                <img src="Icon1.png" alt="">
+                Available foe new projects
+            </div>
+            <div class="flex mt-4 gap-3">
+                <img src="Icon2.png" alt="">
+                <img src="Icon3.png" alt="">
+                <img src="Icon fig.png" alt="">
+            </div>
+        </div>
+        <div
+            class=" flex justify-end xl:w-80 lg:w-59 md:w-50 sm:w-90 w-90 xl:ml-[225px] lg:ml-[90px] md:ml-[55px] sm:ml-0 ml-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0 mt-0 xl:order-none lg:order-none md:order-none sm:order-first  order-first ">
+            <img src="profile.png" alt="">
+        </div>
+    </div>
+
+
+    <!-- ================================================================================ -->
+    <!-- ************************yahan sy neachy thred start gota ha ********************* -->
+    <!-- ================================================================================== -->
+
+    <div class="bg-[#f7f9fa] dark:bg-slate-900 xl:mt-20  py-20 transition-colors  xl:h-220 lg:h-200 md:h-200 ">
+        <div class="flex justify-center">
+            <button class="rounded-full bg-[#e8eaed] dark:bg-slate-800 text-lg xl:mt-5 lg:mt-5 px-4 py-1 font-semibold">About Me</button>
+        </div>
+        <div class="flex flex-col xl:flex-row lg:flex-row md:flex-row">
+            <div class="mt-20 xl:ml-25 lg:ml-25 md:ml-10  sm:ml-25 ml-10">
+                <img src="Pic Container.png" alt="" class="xl:w-90 lg:w-85 md:w-70">
+            </div>
+            <div class="xl:ml-40 lg:ml-20 md:ml-[40px] sm:ml-[60px] ml-[60px] mt-16">
+                <h1 class="font-bold xl:text-[25px] lg:text-[20px] md:text-[15px] sm:text-[20px] text-[20px]">curious
+                    about me? Hewre you have it:</h1>
+                <p class="mt-3 xl:text-[15px] lg:text-[12px] md:text-[10px] sm:text-[14px] text-[10px]">I'm a passionate
+                    self-proclaimed designer who specializes in full stack development <br> (React.js &
+                    Node.js) . I am very enthusiastic about bringing the technical and visual <br> aspects of digital
+                    products to life. User experience pixel perfect design, and writing <br>clear, readable, highly
+                    performant code matters to me.</p>
+                <p class="mt-3 mt-3 xl:text-[15px] lg:text-[12px] md:text-[10px] sm:text-[14px] text-[10px] ">
+                    I began my journey as a web developer in 2015, and since then, I've continued to <br> grow and
+                    evolve as a developer, taking on new challenges and learning the latest <br> technologies along the
+                    way. Now, in my early thirties, 7 years after starting my web <br> development journey, I'm building
+                    cutting-edge web applications using modern <br>technologies such as Next.js, TypeScript, Nestjs,
+                    Tailwindcss, Supabase and much more.
+                </p>
+                <p class="mt-3 mt-3 xl:text-[15px] lg:text-[12px] md:text-[10px] sm:text-[14px] text-[10px]">
+                    I am very much a progressive thinker and enjoy working on products end to end, <br> ideation
+                    all the way to development.
+                </p>
+                <p class="mt-3 mt-3 xl:text-[15px] lg:text-[12px] md:text-[10px] sm:text-[14px] text-[10px]">
+                    When I'm not in full-on developer mode, you can me hovering around on twitter <br>or on indie
+                    hacker, witnessing the journey of early startups or enjoying some free <br> time. You can follow me
+                    on Twitter where I share tech-related bites and build in <br>public, or you can follow me on GitHub.
+                </p>
+                <p class="mt-5 mt-3 xl:text-[15px] lg:text-[12px] md:text-[10px] sm:text-[14px] text-[10px]">
+                    finally, some quick bits about me.
+                </p>
+                <div class="flex  mt-5 ">
+                    <div>
+                        <p class="mt-3 xl:text-[15px] lg:text-[12px] md:text-[10px] sm:text-[14px] text-[10px]">• B.E in
+                            Computer Engineering </p>
+                        <p class="mt-7 mt-3 xl:text-[15px] lg:text-[12px] md:text-[10px] sm:text-[14px] text-[10px]">•
+                            Full Time freelancer</p>
+
+                    </div>
+                    <div class="xl:ml-50 lg:ml-40 md:ml-30 sm:ml-40 ml-35">
+                        <p class="mt-3 xl:text-[15px] lg:text-[12px] md:text-[10px] sm:text-[14px] text-[10px]">• Avid
+                            Learner</p>
+                        <p class="mt-7 mt-3 xl:text-[15px] lg:text-[12px] md:text-[10px] sm:text-[14px] text-[10px]"> •
+                            Aspiring Indi Hacker</p>
+
+                    </div>
+                </div>
+
+                <p class="mt-3 mt-3 xl:text-[15px] lg:text-[12px] md:text-[10px] sm:text-[14px] text-[10px]">One last
+                    thing, I'm available for freelance work, so feel free reach out and say hello! <br> I
+                    promise I don't bite😜</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================================================================================ -->
+    <!-- ************************yahan sy neachy fourth start gota ha ********************* -->
+    <!-- ================================================================================== -->
+
+
+<div>
+    <div>
+        <div class="flex justify-center dark:bg-slate-800, dark:text-white ">
+            <button class="rounded-full bg-[#e8eaed] dark:bg-slate-800 text-lg mt-15 px-4 py-1 font-semibold">Skills</button>
+        </div>
+        <div class="flex justify-center">
+            <p class="xl:text-[20px] lg:text-[20px] md:text-[15px] sm:text-[20px] text-[15px] mt-7">The skills, tools
+                and technologies I am really good at:</p>
+        </div>
+    </div>
+
+
+    <div class="  mt-20 container mx-auto flex flex-col xl:flex-row lg:flex-row md:flex-row sm:flex-col dark:bg-slate-800, dark:text-white">
+        <div class="flex">
+            <div>
+                
+                <div class="text-center"><p class="dark:text-gray-300 font-medium"><img src="icon-javscript.svg" alt=""></p></div>
+                <p>
+                    javascript
+                </p>
+            </div>
+
+            <div class="xl:ml-26 lg:ml-16 md:ml-8 sm:ml-26 ml-15">
+                <img src="icon-typescript.svg" alt="">
+                <p>
+                    Typescript
+                </p>
+            </div>
+
+            <div class="xl:ml-26 lg:ml-16 md:ml-8 sm:ml-26 ml-15">
+                <img src="icon-react.svg" alt="">
+                <p>
+                    React
+                </p>
+            </div>
+            <div class="xl:ml-26 lg:ml-16 md:ml-8 sm:ml-26 ml-13">
+                <img src="icon-nextjs.svg" alt="">
+                <p>
+                    Next.js
+                </p>
+            </div>
+        </div>
+
+        <div class="flex xl:mt-0 lg:mt-0 md:mt-0 sm:mt-10 mt-9">
+            <div class="xl:ml-26 lg:ml-16 md:ml-8 sm:ml-0 ml-0 ">
+                <img src="icon-nodejs.svg" alt="">
+                <p>
+                    Node.js
+                </p>
+            </div>
+
+            <div class="xl:ml-26 lg:ml-16 md:ml-8 sm:ml-26 ml-15">
+                <img src="icon-express.svg" alt="">
+                <p>
+                    Express.js
+                </p>
+            </div>
+
+            <div class="xl:ml-26 lg:ml-16 md:ml-8 sm:ml-30 ml-18">
+                <img src="icon-nest.svg" alt="">
+                <p>
+                    Nest.js
+                </p>
+            </div>
+            <div class="xl:ml-26 lg:ml-16 md:ml-8 sm:ml-28 ml-15">
+                
+                <div class="text-center"><p class="dark:text-gray-300 font-medium"><img src="icon-socket.svg" alt=""></p></div>
+                <p>
+                    Socket.io
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="mt-15 container mx-auto flex flex-col xl:flex-row lg:flex-row md:flex-row sm:flex-col">
+        <div class="flex">
+            <div>
+                <img src="icon-postgresql.svg" alt="">
+                <p>
+                    PostgreSQL
+                </p>
+            </div>
+
+            <div class="xl:ml-26 lg:ml-16 md:ml-8 sm:ml-26 ml-10">
+                <img src="icon-mongodb.svg" alt="">
+                <p>
+                    MangoDB
+                </p>
+            </div>
+
+            <div class="xl:ml-26 lg:ml-16 md:ml-8 sm:ml-26 ml-15">
+                <img src="icon-sass.svg" alt="">
+                <p>
+                    Sass/Scss
+                </p>
+            </div>
+
+            <div class="xl:ml-26 lg:ml-16 md:ml-8 sm:ml-22 ml-15 xl:mt-5 lg:mt-5 md:mt-5 sm:mt-5 mt-5">
+                <img src="icon-tailwindcss.svg" alt="" class="w-20">
+                <p>
+                    Tailwindcss
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="flex xl:mt-0 lg:mt-0 md:mt-0 sm:mt-10 mt-9 ">
+                <div class="xl:ml-26 lg:ml-16 md:ml-8 sm:ml-3 ml-3">
+                    <img src="icon-figma.svg" alt="">
+                    <p>
+                        Figma
+                    </p>
+                </div>
+
+                <div class="xl:ml-26 lg:ml-16 md:ml-8 sm:ml-30 ml-15">
+                    <img src="icon-cypress.svg" alt="">
+                    <p>
+                        Cypress
+                    </p>
+                </div>
+
+                <div class="xl:ml-26 lg:ml-18 md:ml-8 sm:ml-30 ml-16">
+                    <img src="icon-storybook.svg" alt="">
+                    <p>
+                        Storybook
+                    </p>
+                </div>
+
+                <div class="xl:ml-26 lg:ml-18 md:ml-8 sm:ml-25 ml-18">
+                    <img src="icon-git.svg" alt="">
+                    <p>
+                        Github
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- ================================================================================ -->
+    <!-- ************************yahan sy neachy 5 start gota ha ********************* -->
+    <!-- ================================================================================== -->
+
+    <div class="bg-[#f7f9fa] h-260 dark:bg-slate-900 py-20 mt-10 ">
+        <div class="flex justify-center">
+            <button class="rounded-full bg-[#e8eaed] dark:bg-slate-800 text-lg mt-5 px-4 py-1 font-semibold">Experience</button>
+        </div>
+        <div class="flex justify-center mt-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div
+            class="bg-white dark:bg-slate-800 xl:ml-80 lg:ml-50 md:ml-35 sm:ml-17 ml-5  xl:w-176 lg:w-160 md:w-130 sm:w-120 w-110  mt-15 xl:h-57  lg:h-55  md:h-50 sm:h-50 h-50 shadow-2xl ">
+            <div class=" flex ">
+                <img src="logo-upwork.png" alt="" class="mt-10 ml-2">
+            </div>
+            <div class=" xl:ml-45 lg:ml-43 md:ml-40 sm:ml-35 ml-35 mt-[-30px] ">
+                <h1 class="font-bold xl:text-[15px] lg:text-[15px] md:text-[14px] sm:text-[13px]">Sr. Frontend Developer
+                </h1>
+                <p class="xl:text-[15px] lg:text-[13px] md:text-[12px] sm:text-[12px] text-[12px]">
+                    • Lorem ipsum dolor sit amet best of the body <br> consectetur and to adipiscing elit.
+                </p>
+                <p class="xl:text-[15px] lg:text-[13px] md:text-[12px] sm:text-[12px] text-[12px]">• Lorem ipsum dolor
+                    sit not all people do this <br> amet consectetur adipiscing elit.</p>
+                <p class="xl:text-[15px] lg:text-[13px] md:text-[12px] sm:text-[12px] text-[12px]">• Lorem ipsum dolor
+                    sit amet all regards to this <br>consectetur adipiscing elit.</p>
+                <p class="xl:text-[15px] lg:text-[13px] md:text-[12px] sm:text-[12px] text-[12px]">• Lorem ipsum dolor
+                    not by at the time of cash sit</p>
+            </div>
+
+        </div>
+
+
+        <div
+            class="bg-white dark:bg-slate-800  xl:ml-80 lg:ml-50 md:ml-35 sm:ml-17 ml-5  xl:w-176 lg:w-160 md:w-130 sm:w-120 w-110  mt-15 xl:h-61  lg:h-56  md:h-53 sm:h-53 h-56  shadow-2xl">
+            <div class=" flex ">
+                <img src="logo-upwork.png" alt="" class="mt-10 ml-2">
+            </div>
+            <div class=" xl:ml-45 lg:ml-43 md:ml-40 sm:ml-35 ml-35 mt-[-30px]">
+                <h1 class="font-bold xl:text-[15px] lg:text-[15px] md:text-[14px] sm:text-[13px]">Team Lead
+                </h1>
+                <p class="xl:text-[15px] lg:text-[13px] md:text-[12px] sm:text-[12px] text-[12px]">
+                    • Lorem ipsum dolor sit by eat of the story amet <br>of consectetur adipiscing of the elit.
+                </p>
+                <p class="xl:text-[15px] lg:text-[13px] md:text-[12px] sm:text-[12px] text-[12px]">
+                    • Lorem ipsum dolor sit amet not my man city of <br>consectetur not adipiscing elit.</p>
+                <p class="xl:text-[15px] lg:text-[13px] md:text-[12px] sm:text-[12px] text-[12px]">• Lorem ipsum dolor
+                    getting by sort hand <br>property sit amet, consectetur adipiscing.</p>
+                <p class="xl:text-[15px] lg:text-[13px] md:text-[12px] sm:text-[12px] text-[12px]">• Lorem ipsum dolor
+                    sit lets have my cash in hand <br>amet, consectetur adipiscing elit.</p>
+            </div>
+
+        </div>
+
+
+        <div
+            class="bg-white dark:bg-slate-800  xl:ml-80 lg:ml-50 md:ml-35 sm:ml-17 ml-5  xl:w-176 lg:w-160 md:w-130 sm:w-120 w-110  mt-15 xl:h-36  lg:h-33  md:h-33 sm:h-30 h-30  shadow-2xl">
+            <div class=" flex ">
+                <img src="logo-upwork.png" alt="" class="mt-10 ml-2">
+            </div>
+            <div class=" xl:ml-45 lg:ml-43 md:ml-40 sm:ml-35 ml-35 mt-[-30px]">
+                <h1 class="font-bold xl:text-[15px] lg:text-[15px] md:text-[14px] sm:text-[13px]">Full Stack Developer
+                </h1>
+                <p class="xl:text-[15px] lg:text-[13px] md:text-[12px] sm:text-[12px] text-[12px]">
+                    • Lorem ipsum dolor sit amet of consectetur <br>adipiscing elit.Lorem ipsum dolor sit amet,
+                    <br>consectetur adipiscing elit.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ================================================================================ -->
+    <!-- ************************yahan sy neachy six start gota ha ********************* -->
+    <!-- ================================================================================== -->
+
+
+    <div>
+        <div>
+            <div class="flex justify-center">
+                <button class="rounded-full bg-[#e8eaed] dark:bg-slate-800 text-lg mt-25 px-4 py-1 font-semibold">Work</button>
+            </div>
+            <div class="flex justify-center mt-5 font-medium">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="flex mt-8 flex-col xl:flex-row lg:flex-row md:flex-row sm:flex-col">
+            <div
+                class="xl:ml-70 lg:ml-30 md:ml-10 sm:ml-15 ml-10  bg-[#e9ecf0] xl:w-96 lg:w-86 md:w-81 sm:w-126 w-106 ">
+                <img src="Picture.png" alt=""
+                    class="rounded border-bg-[#e9ecf0] shadow-2xl xl:w-90 lg:w-85 md:w-80       sm:w-125 w-105 ">
+            </div>
+            <div class="xl:ml-10 lg:ml-8 md:ml-6 sm:ml-15 ml-10  xl:mt-5 lg:mt-2 md:mt-3 sm:mt-12 mt-12">
+                <h1 class="font-bold">
+                    Fiskil
+                </h1>
+                <p class="xl:text-[13px] lg:text-[12px] md:text-[10px] sm:text-[15px] text-[13px]">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis <br>incidunt architecto vel
+                    fugit unde! Doloremque aut recusandae quod <br>delectus libero necessitatibus, corrupti nobis, sequi
+                    voluptate earum ea. <br>Reiciendis, sint est!
+                </p>
+                <div>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-5 px-4 py-1 font-semibold">React</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-5 px-4 py-1 font-semibold">Nest.js</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-5 px-4 py-1 font-semibold">Figma</button>
+                </div>
+                <div>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-2 px-4 py-1 font-semibold">Next.js</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-2 px-4 py-1 font-semibold">PostgreSQL</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-2 px-4 py-1 font-semibold">Cypress</button>
+                </div>
+                <div>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-2 px-4 py-1 font-semibold">Typescript</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] mt-2 px-4 py-1 font-semibold">Tailwindcss</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] mt-2 px-4 py-1 font-semibold">Storybook</button>
+                </div>
+                <div>
+                    <img src="Icon Button.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex mt-20 flex-col xl:flex-row lg:flex-row md:flex-row sm:flex-col">
+            <div
+                class="xl:ml-70 lg:ml-30 md:ml-10 sm:ml-15 ml-10  bg-[#e9ecf0] xl:w-96 lg:w-86 md:w-81 sm:w-126 w-106 ">
+                <img src="Picture.png" alt=""
+                    class="rounded border-bg-[#e9ecf0] shadow-2xl xl:w-90 lg:w-85 md:w-80       sm:w-125 w-105 ">
+            </div>
+            <div class="xl:ml-10 lg:ml-8 md:ml-6 sm:ml-15 ml-10  xl:mt-5 lg:mt-2 md:mt-3 sm:mt-12 mt-12">
+                <h1 class="font-bold">
+                    Fiskil
+                </h1>
+                <p class="xl:text-[13px] lg:text-[12px] md:text-[10px] sm:text-[15px] text-[13px]">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis <br>incidunt architecto vel
+                    fugit unde! Doloremque aut recusandae quod <br>delectus libero necessitatibus, corrupti nobis, sequi
+                    voluptate earum ea. <br>Reiciendis, sint est!
+                </p>
+                <div>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-5 px-4 py-1 font-semibold">React</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-5 px-4 py-1 font-semibold">Nest.js</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-5 px-4 py-1 font-semibold">Figma</button>
+                </div>
+                <div>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-2 px-4 py-1 font-semibold">Next.js</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-2 px-4 py-1 font-semibold">PostgreSQL</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-2 px-4 py-1 font-semibold">Cypress</button>
+                </div>
+                <div>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-2 px-4 py-1 font-semibold">Typescript</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] mt-2 px-4 py-1 font-semibold">Tailwindcss</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] mt-2 px-4 py-1 font-semibold">Storybook</button>
+                </div>
+                <div>
+                    <img src="Icon Button.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex mt-20 flex-col xl:flex-row lg:flex-row md:flex-row sm:flex-col">
+            <div
+                class="xl:ml-70 lg:ml-30 md:ml-10 sm:ml-15 ml-10  bg-[#e9ecf0] xl:w-96 lg:w-86 md:w-81 sm:w-126 w-106 ">
+                <img src="Picture.png" alt=""
+                    class="rounded border-bg-[#e9ecf0] shadow-2xl xl:w-90 lg:w-85 md:w-80       sm:w-125 w-105 ">
+            </div>
+            <div class="xl:ml-10 lg:ml-8 md:ml-6 sm:ml-15 ml-10  xl:mt-5 lg:mt-2 md:mt-3 sm:mt-12 mt-12">
+                <h1 class="font-bold">
+                    Fiskil
+                </h1>
+                <p class="xl:text-[13px] lg:text-[12px] md:text-[10px] sm:text-[15px] text-[13px]">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis <br>incidunt architecto vel
+                    fugit unde! Doloremque aut recusandae quod <br>delectus libero necessitatibus, corrupti nobis, sequi
+                    voluptate earum ea. <br>Reiciendis, sint est!
+                </p>
+                <div>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-5 px-4 py-1 font-semibold">React</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-5 px-4 py-1 font-semibold">Nest.js</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-5 px-4 py-1 font-semibold">Figma</button>
+                </div>
+                <div>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-2 px-4 py-1 font-semibold">Next.js</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-2 px-4 py-1 font-semibold">PostgreSQL</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-2 px-4 py-1 font-semibold">Cypress</button>
+                </div>
+                <div>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] sm:text-lg text-lg mt-2 px-4 py-1 font-semibold">Typescript</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] mt-2 px-4 py-1 font-semibold">Tailwindcss</button>
+                    <button
+                        class="rounded-full bg-[#e8eaed] dark:bg-slate-800 xl:text-lg lg:text-lg md:text-[15px] mt-2 px-4 py-1 font-semibold">Storybook</button>
+                </div>
+                <div>
+                    <img src="Icon Button.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================================================================================ -->
+    <!-- ************************yahan sy neachy six start gota ha ********************* -->
+    <!-- ================================================================================== -->
+
+
+    <div class="bg-[#f7f9fa]  dark:bg-slate-900  mt-19 xl:h-140 lg:h-140 md:h-125 sm:h-300 h-280  dark:bg-slate-800, dark:text-white">
+        <div>
+            <div class="flex justify-center">
+                <button class="rounded-full bg-[#e8eaed] dark:bg-slate-800 text-lg mt-25 px-4 py-1 font-semibold">Testimonials</button>
+            </div>
+            <div class="flex justify-center mt-5 font-medium">
+                <p>Nice things people said about me.</p>
+            </div>
+        </div>
+
+
+        <div
+            class="flex flex-col xl:flex-row lg:flex-row md:flex-row sm:flex-col mt-20  xl:justify-center  justify-center">
+            <div
+                class="bg-white  dark:bg-slate-800 xl:w-58  lg:w-58 md:w-53 sm:w-90 w-80 xl:ml-0 lg:ml-0 md:ml-0 sm:ml-30 ml-15 shadow-2xl">
+                <img src="icon-user.png" alt="" class="xl:ml-25 lg:ml-25 md:ml-20 sm:ml-40 ml-38">
+                <p
+                    class="text-[13px] lg:text-[12px] md:text-[10px] sm:text-[17px] text-[15px] xl:ml-4 lg:ml-4 md:ml-4 sm:ml-11 ml-9">
+                    Job well done! I am really impressed. <br> He is very very good at what he <br>does:) I would
+                    recommend Sagar and <br>will rehire in the future for Frontend <br>development."
+                </p>
+                <h1 class="font-bold justify-center flex">john Doe</h1>
+                <p class="flex justify-center">Founder xyz.com</p>
+
+            </div>
+
+            <div
+                class="bg-white  dark:bg-slate-800 xl:w-58 lg:w-58 md:w-53 sm:w-90 w-80 xl:ml-30 lg:ml-25 md:ml-15 sm:ml-30 ml-15 shadow-2xl xl:mt-0 lg:mt-0 md:mt-0 sm:-mt-[-60px] mt-[50px]">
+                <img src="icon-user.png" alt="" class="xl:ml-25 lg:ml-25 md:ml-20 sm:ml-40 ml-38">
+                <p
+                    class="text-[13px] lg:text-[12px] md:text-[10px] sm:text-[17px] text-[15px] xl:ml-4 lg:ml-4 md:ml-4 sm:ml-11 ml-9">
+                    Job well done! I am really impressed. <br> He is very very good at what he <br>does:) I would
+                    recommend Sagar and <br>will rehire in the future for Frontend <br>development."
+                </p>
+                <h1 class="font-bold justify-center flex">john Doe</h1>
+                <p class="flex justify-center">Founder xyz.com</p>
+
+            </div>
+
+            <div
+                class="bg-white  dark:bg-slate-800 xl:w-58 lg:w-58 md:w-50 sm:w-90 w-80 shadow-2xl xl:ml-30 lg:ml-28 md:ml-13 sm:ml-30 ml-15 xl:mt-0 lg:mt-0 md:mt-0 sm:-mt-[-60px] mt-[50px]">
+                <img src="icon-user.png" alt="" class="xl:ml-25 lg:ml-25 md:ml-20 sm:ml-40 ml-38">
+                <p class="text-[13px] lg:text-[12px] md:text-[10px] sm:text-[17px] text-[15px] xl:ml-4 lg:ml-4 md:ml-4 sm:ml-11 ml-9">
+                    Job well done! I am really impressed. <br> He is very very good at what he <br>does:) I would
+                    recommend Sagar and <br>will rehire in the future for Frontend <br>development."
+                </p>
+                <h1 class="font-bold justify-center flex">john Doe</h1>
+                <p class="flex justify-center">Founder xyz.com</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================================================================================ -->
+    <!-- ************************yahan sy neachy seven start gota ha ********************* -->
+    <!-- ================================================================================== -->
+
+    <div>
+        <div class="flex justify-center ">
+            <button class="rounded-full bg-[#e8eaed]  dark:bg-slate-800 text-lg mt-25 px-4 py-1 font-semibold">Contact</button>
+        </div>
+        <div
+            class="flex justify-center mt-5 font-medium   xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[12px]">
+            <p>Lorem ipsum dolor sit ament consectetur adipisicing elit for on to the body
+            </p>
+        </div>
+        <div
+            class="flex justify-center mt-5 font-medium xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[12px]">
+            <p>Lorem ipsum dolor sit
+                ament consectetur adipisicing elid.</p>
+        </div>
+        <div class="flex justify-center mt-9 ">
+            <img src="email.png" alt="">
+            <p class="font-bold xl:text-[20px] lg:text-[19px] md:text-[17px] sm:text-[19px] text-[17px]">shahahsan235@gmail.com</p>
+            <img src="box.png" alt="">
+        </div>
+        <div class="flex justify-center mt-3 ">
+            <img src="mob.png" alt="">
+            <p class="font-bold xl:text-[20px] lg:text-[19px] md:text-[17px] sm:text-[19px] text-[17px]">+92 3144490615 </p>
+            <img src="box.png" alt="">
+        </div>
+        <div class="flex justify-center mt-5">
+            <p class="font-normal xl:text-[20px] lg:text-[19px] md:text-[17px] sm:text-[19px] text-[17px]">You may aslo find me on these paltforms</p>
+        </div>
+        <div class="flex justify-center mt-3">
+            <img src="Icon2.png" alt="">
+            <img src="Icon3.png" alt="">
+            <img src="Icon fig.png" alt="">
+        </div>
+
+    </div>
+
+    <!-- ================================================================================ -->
+    <!-- ************************yahan sy neachy eight start gota ha ********************* -->
+    <!-- ================================================================================== -->
+
+    <div class="bg-[#f7f9fa]  dark:bg-slate-800 h-15">
+        <div class="flex justify-center mt-3">
+            <img src="vecto2.png" alt="">
+            <p class="xl:text-[20px] lg:text-[19px] md:text-[17px] sm:text-[19px] text-[17px]"> 2024 | Designed and coded with ❤️ By Abdul Sadiq</p>
+        </div>
+
+    </div>
+
+    <script>
+        const btn = document.getElementById('dark-mode-toggle');
+        const icon = document.getElementById('theme-icon');
+        const html = document.documentElement;
+
+        // Check for saved theme
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            html.classList.add('dark');
+            icon.classList.replace('fa-moon', 'fa-sun');
+        }
+
+        btn.addEventListener('click', () => {
+            html.classList.toggle('dark');
+
+            if (html.classList.contains('dark')) {
+                icon.classList.replace('fa-moon', 'fa-sun');
+                localStorage.theme = 'dark';
+            } else {
+                icon.classList.replace('fa-sun', 'fa-moon');
+                localStorage.theme = 'light';
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
